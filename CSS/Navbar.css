@@ -1,0 +1,20 @@
+.Navbar{
+    background-color: #f2dabe;
+    overflow: hidden;
+}
+.Navbar a{
+    float: left;
+    color: rgb(239, 213, 178); 
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.Navbar a:hover{
+    background-color: rgb(211, 179, 241);
+    color: antiquewhite;
+}
+.Navbar a.active{
+    background-color: rgb(167, 240, 240);
+    color: white;
+}
